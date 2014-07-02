@@ -1,0 +1,40 @@
+inline-block()
+	display inline-block
+	box-sizing border-box
+	vertical-align top
+
+select_none()
+	-webkit-touch-callout none
+	-webkit-user-select none
+	-khtml-user-select none
+	-moz-user-select none
+	-ms-user-select none
+	user-select none
+
+fullscreen()
+	fixed left 5% right 5% bottom 5% top 5%
+	background white
+	border-radius 3px
+	z-index 1001
+	padding 5%
+
+	button[name="more"]
+		display none
+
+	button[name="cancel"], button[name="submit"]
+		display block
+
+	button[name="cancel"]
+		background url('/images/close_btn.png')
+		border none
+		color #FFF
+		background-repeat no-repeat
+		outline none
+		background-position 50px
+		width 75px
+		text-align left
+		height 25px
+		position absolute
+		top 20px
+		right 20%
+		cursor pointer
